@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const app = express();
 
 app.get('/', (req, res, next) => {
-    res.json({"hamada":"hamada"})
+    return res.json({"hamada":"hamada"})
 });
 
 const password = 'pnc123456789';
