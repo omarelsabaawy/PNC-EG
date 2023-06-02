@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 const app = express();
 
-app.use('/', (req, res, next) => {
+app.get('/', (req, res, next) => {
     res.send("HERE'S PNC WEBSITE RUNNING.")
 });
 
